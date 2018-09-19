@@ -100,10 +100,11 @@ NotifyAccess=all
 WantedBy=multi-user.target
 ```
 这里指向了/etc/uwsgi/emperor.ini文件如下
-[uwsgi]
+```[uwsgi]
 
-emperor = /etc/uwsgi/apps-available```
+emperor = /etc/uwsgi/apps-available
 ```
+
 这里是为了方便给每个应用设置相同的参数，比如线程数之类的。apps-available为系统自带目录，告诉emperor在哪里找到应用的配置文件
 
 这些配置文件适合使用软连接从应用目录链接过去
