@@ -1,6 +1,6 @@
 # newworksystem
 It's just a personal instruction after Ubuntu install.
-
+# 分区时，单独保留/home分区，方便重装系统
 ## 常见软件包安装
 - 安装vim,vim-gnome支持系统剪切板"+p, 解压软件
 
