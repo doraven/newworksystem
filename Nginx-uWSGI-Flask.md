@@ -118,6 +118,9 @@ systemctl restart emperor.uwsgi.service
 systemctl stop emperor.uwsgi.service
 systemctl status emperor.uwsgi.service
 ```
+
+使用`systemctl enable emperor.uwsgi.service`使服务开机启动
+
 修改配置文件即重启uwsgi
 
 ## nignx
