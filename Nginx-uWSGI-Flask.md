@@ -1,13 +1,7 @@
 
 # 安装python工作环境以及flaskr的配置环境
 
-- 修改默认python为python3
-
-```
-sudo rm /usr/bin/python
-sudo ln -s /usr/bin/python3.6 /usr/bin/
-sudo apt install python3-dev python3-pip build-essential
-```
+`sudo apt install python3-dev python3-pip build-essential`
 
 ## 创建虚拟工作区
 没有需求可以不用virtualenv，testvenv为虚拟工作环境目录
